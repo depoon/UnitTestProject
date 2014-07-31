@@ -19,7 +19,7 @@ mkdir Report
 cd ..
 
 
-exit;
+
 # ----------------- Execution Commands 
 ../Tools/gcovr-3.0/scripts/gcovr  --html --html-details -o ./Coverage/Report/coverage.html --root=$projectFolderPath --exclude '.*UnitTestHelper*' --exclude '.*UnitTestClasses*'
 cp $projectFolderPath/Coverage/Report/coverage.html $projectFolderPath/Coverage/coverage.html
