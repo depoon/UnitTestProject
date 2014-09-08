@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				1C2B98F219415A4F0034F79C /* Classes */,
-				1C2B990919415AAD0034F79C /* UnitTest */,
+				1C2B990919415AAD0034F79C /* UnitTestClasses */,
 				1C2B990C19415B730034F79C /* UnitTestHelper */,
 				1C2B98FB19415AA90034F79C /* UnitTest */,
 				1C2B98C219415A360034F79C /* Frameworks */,
@@ -116,11 +116,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1C2B990919415AAD0034F79C /* UnitTest */ = {
+		1C2B990919415AAD0034F79C /* UnitTestClasses */ = {
 			isa = PBXGroup;
 			children = (
+				1C0D27281982B9300019B2C1 /* CalculatorTest.m */,
 			);
-			name = UnitTest;
+			name = UnitTestClasses;
 			sourceTree = "<group>";
 		};
 		1C2B990C19415B730034F79C /* UnitTestHelper */ = {
@@ -128,7 +129,6 @@
 			children = (
 				1C2B990D19415C210034F79C /* CoverableXCTestCase.h */,
 				1C2B990E19415C210034F79C /* CoverableXCTestCase.m */,
-				1C0D27281982B9300019B2C1 /* CalculatorTest.m */,
 			);
 			name = UnitTestHelper;
 			sourceTree = "<group>";
