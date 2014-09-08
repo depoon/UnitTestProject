@@ -1,4 +1,4 @@
-rm -r -f derivedDataDirectory
+rm -f derivedDataDirectory
 rm -r -f Coverage
 rm -r -f coverage.html
 rm -r -f UnitTestObjects

@@ -1,4 +1,4 @@
-
+echo "Generating report"
 derivedDataDirectory=`cat derivedDataDirectory`
 projectFolderPath=`pwd`
 projectFolderPath=$(echo $projectFolderPath | sed 's,//,/,g')
@@ -14,14 +14,10 @@ chmod 0775 UnitTestObjects
 
 rm -r -f Coverage
 mkdir Coverage
-cd Coverage
-mkdir Report
-cd ..
-
-
 
 # ----------------- Execution Commands 
-../Tools/gcovr-3.0/scripts/gcovr  --html --html-details -o ./Coverage/Report/coverage.html --root=$projectFolderPath --exclude '.*UnitTestHelper*' --exclude '.*UnitTestClasses*'
-cp $projectFolderPath/Coverage/Report/coverage.html $projectFolderPath/Coverage/coverage.html
 
-open $projectFolderPath/Coverage/Report/coverage.html
+../Tools/gcovr-3.0/scripts/gcovr  --html --html-details -o ./Coverage/coverage.html --root=$projectFolderPath --exclude '.*UnitTestHelper*' --exclude '.*UnitTestClasses*'
+cp $projectFolderPath/Coverage/coverage.html $projectFolderPath/coverage.html
+
+open $projectFolderPath/coverage.html

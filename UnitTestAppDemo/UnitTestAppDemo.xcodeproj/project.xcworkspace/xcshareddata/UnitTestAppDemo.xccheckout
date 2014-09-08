@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>07BCC3BB-262B-42D0-9D49-E8239148E06D</string>
+	<string>52A3C2D7-594A-4AD3-85BC-08D05088F3CD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>UnitTestTemplate</string>
+	<string>UnitTestAppDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>790E6230-4B65-4290-85EA-F7A15FD618B8</key>
+		<key>7BA05C68-C30B-4365-8D67-2C1F12F93F40</key>
 		<string>https://github.com/depoon/UnitTestProject.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UnitTestTemplate/UnitTestTemplate.xcodeproj/project.xcworkspace</string>
+	<string>UnitTestAppDemo/UnitTestAppDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>790E6230-4B65-4290-85EA-F7A15FD618B8</key>
+		<key>7BA05C68-C30B-4365-8D67-2C1F12F93F40</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>790E6230-4B65-4290-85EA-F7A15FD618B8</string>
+	<string>7BA05C68-C30B-4365-8D67-2C1F12F93F40</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>790E6230-4B65-4290-85EA-F7A15FD618B8</string>
+			<string>7BA05C68-C30B-4365-8D67-2C1F12F93F40</string>
 			<key>IDESourceControlWCCName</key>
 			<string>UnitTestProject</string>
 		</dict>

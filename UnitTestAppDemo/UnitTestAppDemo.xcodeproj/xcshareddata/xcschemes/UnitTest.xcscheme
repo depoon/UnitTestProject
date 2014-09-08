@@ -16,14 +16,14 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "cd  ${PROJECT_DIR}&#10;&#10;if [ &quot;Debug&quot; == &quot;${CONFIGURATION}&quot; ]; then&#10;    ./scripts/generateCoverageReport.sh&#10;fi&#10;&#10;">
+               scriptText = "echo &quot;Doing Post Actions&quot;&#10;cd  ${PROJECT_DIR}&#10;&#10;if [ &quot;Debug&quot; == &quot;${CONFIGURATION}&quot; ]; then&#10;    ./scripts/generateCoverageReport.sh&#10;fi&#10;&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "1CB88CB71987C3B000BBD948"
+                     BlueprintIdentifier = "1C2B98F619415AA90034F79C"
                      BuildableName = "UnitTest.xctest"
                      BlueprintName = "UnitTest"
-                     ReferencedContainer = "container:UnitTestTemplate.xcodeproj">
+                     ReferencedContainer = "container:UnitTestAppDemo.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -34,10 +34,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1CB88CB71987C3B000BBD948"
+               BlueprintIdentifier = "1C2B98F619415AA90034F79C"
                BuildableName = "UnitTest.xctest"
                BlueprintName = "UnitTest"
-               ReferencedContainer = "container:UnitTestTemplate.xcodeproj">
+               ReferencedContainer = "container:UnitTestAppDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
