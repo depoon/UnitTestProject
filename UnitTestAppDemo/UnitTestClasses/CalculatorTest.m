@@ -1,5 +1,5 @@
 //
-//  DemoTest.m
+//  CalculatorTest.m
 //  UnitTestAppDemo
 //
 //  Created by Kenneth Poon on 26/7/14.
